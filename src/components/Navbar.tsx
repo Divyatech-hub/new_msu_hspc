@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,14 +22,14 @@ export default function Navbar() {
             <Link href="/about" className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
               About
             </Link>
+            <Link href="/details" className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
+              Details
+            </Link>
             <Link href="/registration" className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
               Registration
             </Link>
-            <Link href="/schedule" className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
-              Schedule
-            </Link>
-            <Link href="/results" className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
-              Results
+            <Link href="/contact" className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
+              Contact
             </Link>
           </div>
 
@@ -60,14 +60,14 @@ export default function Navbar() {
           <Link href="/about" className="block px-3 py-2 text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
             About
           </Link>
+          <Link href="/details" className="block px-3 py-2 text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
+            Details
+          </Link>
           <Link href="/registration" className="block px-3 py-2 text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
             Registration
           </Link>
-          <Link href="/schedule" className="block px-3 py-2 text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
-            Schedule
-          </Link>
-          <Link href="/results" className="block px-3 py-2 text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
-            Results
+          <Link href="/contact" className="block px-3 py-2 text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
+            Contact
           </Link>
         </div>
       </div>

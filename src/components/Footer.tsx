@@ -9,7 +9,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 md:order-2 md:mt-0">
           <p className="text-center text-xs leading-5 text-gray-500 dark:text-gray-400">
-            Organized by the Department of Computer Science at Morgan State University
+              Organized by the Department of Computer Science at Michigan State University
           </p>
         </div>
       </div>

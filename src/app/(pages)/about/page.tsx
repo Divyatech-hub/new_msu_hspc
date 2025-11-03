@@ -1,28 +1,42 @@
+import Image from "next/image";
+
 export default function AboutPage() {
   const teamMembers = [
     {
       name: "Teresa VanderSloot",
-      image: "/images/Teresa.jpg",
+      image: "/Teresa.jpg",
+      width: 300,
+      height: 300,
     },
     {
       name: "Dr. Laura Dillon",
-      image: "/images/Laura.jpg",
+      image: "/Laura.jpg",
+      width: 300,
+      height: 300,
     },
     {
       name: "Dr. Joshua Nahum",
-      image: "/images/Josh.jpg",
+      image: "/Josh.jpg",
+      width: 300,
+      height: 300,
     },
     {
       name: "Divyalakshmi Varadha Rajan Prem Sudha",
-      image: "/images/Divya.png",
+      image: "/Divya.png",
+      width: 300,
+      height: 300,
     },
     {
       name: "Lia Kim",
-      image: "/images/Lia_Kim.jpg",
+      image: "/Lia_Kim.jpg",
+      width: 300,
+      height: 300,
     },
     {
       name: "Sania Sinha",
-      image: "/images/Sania_Sinha.jpg",
+      image: "/Sania_Sinha.jpg",
+      width: 300,
+      height: 300,
     },
   ];
 
@@ -57,9 +71,11 @@ export default function AboutPage() {
             {teamMembers.map((member) => (
               <div key={member.name} className="text-center">
                 <div className="aspect-square overflow-hidden rounded-xl">
-                  <img
+                  <Image
                     src={member.image}
                     alt={member.name}
+                    width={member.width}
+                    height={member.height}
                     className="w-full h-full object-cover"
                   />
                 </div>

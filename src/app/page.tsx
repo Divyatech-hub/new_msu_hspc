@@ -14,7 +14,7 @@ export default function Home() {
               Join the Challenge
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-              The Morgan State University High School Programming Competition is designed to challenge
+              The Michigan State University High School Programming Competition is designed to challenge
               and inspire the next generation of computer scientists and software engineers.
             </p>
           </div>
