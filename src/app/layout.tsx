@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MSU High School Programming Competition",
-  description: "Join us for the annual Michigan State University High School Programming Competition!",
+  title: "MSU Co-ed High School Programming Contest",
+  description: "Join us for the annual Michigan State University Co-ed High School Programming Contest!",
 };
 
 export default function RootLayout({

@@ -41,15 +41,15 @@ export default function AboutPage() {
   ];
 
   return (
-    <div className="py-16 sm:py-24">
+    <div className="py-16 sm:py-24 bg-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Video Section */}
         <div className="mx-auto max-w-2xl text-center mb-16">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
-            About the Competition
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            About the Contest
           </h1>
-          <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-            Watch our introduction video to learn more about the competition!
+          <p className="mt-6 text-lg leading-8 text-gray-600">
+            Watch our introduction video to learn more about the contest!
           </p>
           <div className="mt-8 aspect-video w-full">
             <iframe
@@ -64,7 +64,7 @@ export default function AboutPage() {
 
         {/* Team Members */}
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl text-center mb-12">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center mb-12">
             Our Team
           </h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -79,7 +79,7 @@ export default function AboutPage() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="mt-4 text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="mt-4 text-lg font-semibold text-gray-900">
                   {member.name}
                 </h3>
               </div>
