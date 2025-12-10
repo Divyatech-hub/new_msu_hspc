@@ -2,8 +2,6 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/new_msu_hspc",
-  assetPrefix: "/new_msu_hspc",
   images: {
     unoptimized: true,
   },
