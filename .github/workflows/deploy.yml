@@ -5,6 +5,8 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
+# Updated for custom domain msuhspc.com
+
 permissions:
   contents: read
   pages: write
