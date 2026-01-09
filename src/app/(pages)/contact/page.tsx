@@ -47,8 +47,8 @@ export default function ContactPage() {
                       Email
                     </dt>
                     <dd className="mt-1 text-gray-600 pl-7">
-                      <a href="mailto:wie@egr.msu.edu" className="hover:text-green-700">
-                        wie@egr.msu.edu
+                      <a href="mailto:msu-bp-ambassadors@egr.msu.edu" className="hover:text-green-700">
+                        msu-bp-ambassadors@egr.msu.edu
                       </a>
                     </dd>
                   </div>

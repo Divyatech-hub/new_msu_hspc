@@ -46,7 +46,7 @@ export default function Home() {
                   </p>
                 </dd>
               </div>
-              <div className="flex flex-col">
+              {/* <div className="flex flex-col">
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
                   Prizes
                 </dt>
@@ -55,7 +55,7 @@ export default function Home() {
                     Win exciting prizes including scholarships, tech gadgets, and recognition for your school.
                   </p>
                 </dd>
-              </div>
+              </div> */}
               <div className="flex flex-col">
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
                   Learning Experience

@@ -27,14 +27,14 @@ export default function AboutPage() {
       height: 300,
     },
     {
-      name: "Lia Kim",
-      image: "/Lia_Kim.jpg",
+      name: "Benjamin Harrison",
+      image: "/Benjamin.jpg",
       width: 300,
       height: 300,
     },
     {
-      name: "Sania Sinha",
-      image: "/Sania_Sinha.jpg",
+      name: "Joshua Twumasi",
+      image: "/Joshua T.jpg",
       width: 300,
       height: 300,
     },
