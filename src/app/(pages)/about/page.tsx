@@ -28,7 +28,7 @@ export default function AboutPage() {
     },
     {
       name: "Benjamin Harrison",
-      image: "/Benjamin.jpg",
+      image: "/Benjamin.png",
       width: 300,
       height: 300,
     },

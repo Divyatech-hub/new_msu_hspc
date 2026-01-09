@@ -34,34 +34,33 @@ export default function Home() {
           </div>
 
           <div className="mx-auto mt-12 max-w-2xl sm:mt-14 lg:mt-16 lg:max-w-none">
-            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-8 lg:max-w-none lg:grid-cols-3">
-              <div className="flex flex-col">
+            <dl className="grid max-w-xl grid-cols-1 gap-8 lg:max-w-3xl lg:grid-cols-2 justify-center mx-auto">
+              <div className="flex flex-col h-full bg-gray-50 rounded-xl p-6 shadow-sm items-start justify-between">
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
                   Competition Format
                 </dt>
-                <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
-                  <p className="flex-auto">
-                    Teams of students solve programming challenges using popular programming languages
-                    like Python, Java, and C++.
+                <dd className="mt-4 flex flex-col text-base leading-7 text-gray-600 flex-1">
+                  <p>
+                    Teams of students solve programming challenges using popular programming languages like Python, Java, and C++.
                   </p>
                 </dd>
               </div>
-              {/* <div className="flex flex-col">
+              {/* <div className="flex flex-col h-full bg-gray-50 rounded-xl p-6 shadow-sm items-start justify-between">
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
                   Prizes
                 </dt>
-                <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
-                  <p className="flex-auto">
+                <dd className="mt-4 flex flex-col text-base leading-7 text-gray-600 flex-1">
+                  <p>
                     Win exciting prizes including scholarships, tech gadgets, and recognition for your school.
                   </p>
                 </dd>
               </div> */}
-              <div className="flex flex-col">
+              <div className="flex flex-col h-full bg-gray-50 rounded-xl p-6 shadow-sm items-start justify-between">
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
                   Learning Experience
                 </dt>
-                <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
-                  <p className="flex-auto">
+                <dd className="mt-4 flex flex-col text-base leading-7 text-gray-600 flex-1">
+                  <p>
                     Work with a team to hone your problem-solving skills, have fun, and meet other passionate students.
                   </p>
                 </dd>
