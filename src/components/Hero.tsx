@@ -11,7 +11,7 @@ export default function Hero() {
               MSU Co-ed High School Programming Contest
             </h1>
             <p className="mt-4 text-lg leading-8 text-gray-600">
-              Join us for an exciting day of programming challenges, problem-solving, and learning. Open to all high school students!
+              Join us for a fun day of teamwork and creative problem-solving! Work with friends, challenge yourself, and enjoy the experience—open to all high school students!
             </p>
             <div className="mt-6 flex items-center justify-center lg:justify-start gap-x-6">
               <a
@@ -20,7 +20,7 @@ export default function Hero() {
               >
                 Register Now
               </a>
-              <a href="/about" className="text-sm font-semibold leading-6 text-gray-900">
+              <a href="/details" className="text-sm font-semibold leading-6 text-gray-900">
                 Learn more <span aria-hidden="true">→</span>
               </a>
             </div>

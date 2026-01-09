@@ -62,8 +62,7 @@ export default function Home() {
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
                   <p className="flex-auto">
-                    Get hands-on experience with real-world programming challenges and meet other
-                    passionate students.
+                    Work with a team to hone your problem-solving skills, have fun, and meet other passionate students.
                   </p>
                 </dd>
               </div>
