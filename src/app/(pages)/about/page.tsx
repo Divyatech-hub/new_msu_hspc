@@ -38,6 +38,12 @@ export default function AboutPage() {
       width: 300,
       height: 300,
     },
+    {
+      name: "Sanaz Hasanzadeh",
+      image: "/Sanaz.png",
+      width: 300,
+      height: 300,
+    },
   ];
 
   return (

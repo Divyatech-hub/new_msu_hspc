@@ -60,7 +60,7 @@ export default function DetailsPage() {
             <div className="bg-gray-50 rounded-lg p-6 space-y-4">
               <div>
                 <h3 className="font-semibold text-gray-900">Date & Time</h3>
-                <p className="text-gray-600">Saturday, March 21st, 2025, from 1:30pm − 4:30pm (Eastern)</p>
+                <p className="text-gray-600">Saturday, March 21st, 2026, from 1:30pm − 4:30pm (Eastern)</p>
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900">Location</h3>
@@ -68,7 +68,7 @@ export default function DetailsPage() {
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900">Registration Deadline</h3>
-                <p className="text-gray-600">March 9th, 2025</p>
+                <p className="text-gray-600">March 9th, 2026</p>
               </div>
             </div>
           </div>
