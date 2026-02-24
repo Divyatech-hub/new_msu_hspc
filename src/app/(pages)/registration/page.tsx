@@ -35,7 +35,7 @@ export default function RegistrationPage() {
                 Each team member must complete this form individually.
               </p>
               <a
-                href="https://forms.gle/apTVk3PUUC9gYTdu9"
+                href="https://forms.gle/mT3tLVBLQacT84QT9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-md bg-green-700 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700"
