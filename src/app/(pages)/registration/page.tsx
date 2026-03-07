@@ -17,7 +17,7 @@ export default function RegistrationPage() {
                 The team coach should complete this form to register the team.
               </p>
               <a
-                href="https://forms.gle/VAxy9ajwBFLDw9w4A"
+                href="https://forms.gle/59n84MPom4H4dhSp9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-md bg-green-700 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700"
@@ -35,7 +35,7 @@ export default function RegistrationPage() {
                 Each team member must complete this form individually.
               </p>
               <a
-                href="https://forms.gle/mT3tLVBLQacT84QT9"
+                href="https://forms.gle/nHkD8qsKZpMpsJD37"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-md bg-green-700 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700"
