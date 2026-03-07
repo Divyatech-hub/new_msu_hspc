@@ -44,6 +44,12 @@ export default function AboutPage() {
       width: 300,
       height: 300,
     },
+    {
+      name: "Lia Kim",
+      image: "/Lia_Kim.jpg",
+      width: 300,
+      height: 300,
+    }
   ];
 
   return (
