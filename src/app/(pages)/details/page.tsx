@@ -73,6 +73,39 @@ export default function DetailsPage() {
             </div>
           </div>
 
+          {/* Event Agenda */}
+          <div className="mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Event Agenda</h2>
+            <div className="bg-gray-50 rounded-lg p-6">
+              <div className="space-y-3">
+                <div className="flex items-start">
+                  <span className="font-semibold text-gray-900 w-20 flex-shrink-0">1:30 PM</span>
+                  <span className="text-gray-600">Check-in begins (EB 1345)</span>
+                </div>
+                <div className="flex items-start">
+                  <span className="font-semibold text-gray-900 w-20 flex-shrink-0">2:00 PM</span>
+                  <span className="text-gray-600">Rules and procedures</span>
+                </div>
+                <div className="flex items-start">
+                  <span className="font-semibold text-gray-900 w-20 flex-shrink-0">2:30 PM</span>
+                  <span className="text-gray-600">Contest starts</span>
+                </div>
+                <div className="flex items-start">
+                  <span className="font-semibold text-gray-900 w-20 flex-shrink-0">4:00 PM</span>
+                  <span className="text-gray-600">Contest ends</span>
+                </div>
+                <div className="flex items-start">
+                  <span className="font-semibold text-gray-900 w-20 flex-shrink-0">4:15 PM</span>
+                  <span className="text-gray-600">Pizza and Awards (EB 1345)</span>
+                </div>
+                <div className="flex items-start">
+                  <span className="font-semibold text-gray-900 w-20 flex-shrink-0">5:00 PM</span>
+                  <span className="text-gray-600">Conclusion of Event</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Programming Languages */}
           <div className="mb-12">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Supported Programming Languages</h2>
