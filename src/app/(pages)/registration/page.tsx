@@ -52,6 +52,33 @@ export default function RegistrationPage() {
                 races and genders.
               </p>
             </div>
+
+            {/* Required Forms Packet */}
+            <div className="bg-white rounded-2xl shadow-sm ring-1 ring-gray-900/5 p-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                Required Forms Packet
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Please review and complete the required high school programming
+                forms packet before the event.
+              </p>
+              <a
+                href="/HS_Programming_Required_forms.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center rounded-md bg-green-700 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700"
+              >
+                Open Required Forms (PDF)
+              </a>
+
+              <div className="mt-8 overflow-hidden rounded-xl ring-1 ring-gray-200">
+                <iframe
+                  src="/HS_Programming_Required_forms.pdf"
+                  title="HS Programming Required Forms"
+                  className="w-full h-[700px]"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
