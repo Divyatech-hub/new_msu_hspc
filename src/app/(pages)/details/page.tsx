@@ -68,7 +68,7 @@ export default function DetailsPage() {
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900">Registration Deadline</h3>
-                <p className="text-gray-600">March 9th, 2026</p>
+                <p className="text-gray-600">March 19th, 2026</p>
               </div>
             </div>
           </div>
